@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Truth</title>
+  <link rel="stylesheet" href="../Project Website/css/mystyles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <a id="top"></a>
+      <h1>WHICH FLAVOR OF M&M'S IS THE BEST?</h1>
+      <nav>
+        <ul>
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="game.html">Block Game</a></li>
+            <li class="nav-item"><a class="nav-link" href="thetruth.html">The Truth</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container"> 
+        <img src="../Project Website/Images/Peanutbutter.jpg" alt="Example" class="right-img">
+            <h2>THE BEST M&M'S FLAVORS</h2>
+        <p>
+            
+        </p>
+        <section class="sub-section">
+
+            <p>
+        <ul>
+                <li>"S TIER"
+                  <ol>
+                    <li>Peanut Butter m&m's</li>
+                    <li>Peanut m&m's</li>
+                    <li>Pretzel m&m's</li>
+                  </ol>
+                </li>
+                <li>"A TIER"
+                  <ol>
+                    <li>Original m&m's</li>
+                    <li>Brownies m&m's</li>
+                    <li>Caramel m&m's</li>
+                  </ol>
+                </li>
+            </ul>
+            </p>
+          </section>
+       
+    </div>
+  </section>
+
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>EMBEDDED TABLEAU GRAPH</h2>
+      <p>This is an interesting study done by someone wanting to know how many m&m's of each color came in each bag.</p>
+      <div class="tableau-fixed">
+        <div class='tableauPlaceholder' id='viz1744944568519'>
+          <noscript>
+            <a href='#'>
+              <img alt='Ava&#39;s M&amp;M Analysis' 
+                   src='https://public.tableau.com/static/images/Av/AvasMMAnalysis/AvasMMAnalysis/1_rss.png'
+                   style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AvasMMAnalysis/AvasMMAnalysis' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Av/AvasMMAnalysis/AvasMMAnalysis/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+          </object>
+        </div>
+      </div>
+      
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1744944568519');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '1000px';   // 👈 Set desired width
+        vizElement.style.height = '900px';   // 👈 Set desired height
+      
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+        </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>SCIENTIFIC STUDY CONFIRMING MY (CORRECT) OPINION</h2>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/B37Ew-HOTao" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Copyright &copy; Zachary Brown 2025</p>
+    </div>
+  </footer>
+  <a href="#top" id="backToTopBtn">Back to Top</a>
+  <script>
+    window.addEventListener("scroll", function () {
+      const btn = document.getElementById("backToTopBtn");
+      const scrollY = window.scrollY;
+      const totalHeight = document.documentElement.scrollHeight;
+      const visibleHeight = window.innerHeight;
+  
+      if (scrollY + visibleHeight >= totalHeight - 50) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
