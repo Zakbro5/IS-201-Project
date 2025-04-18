@@ -104,16 +104,19 @@ body {
     float: right;
     margin-left: 20px;
     width: 100%;
-    max-width: 400px;
+    max-width: 460px;
     height: auto;
   }
   
   .sub-section {
     padding: 20px;
-    margin-top: 20px;
-    margin-right: 680px;
     background-color: #700000;
     border-radius: 12px;
     color: white;
-    clear: both;  
+  
+    width: 100%;
+    max-width: 1000px; 
+    min-width: 280px; 
+    margin: 20px auto;  
   }
+  
